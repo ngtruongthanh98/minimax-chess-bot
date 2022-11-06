@@ -1,7 +1,41 @@
+body {
+  background-color: #312e2b;
+}
+
 main {
   height: 100vh;
   display: flex;
   align-items: center;
+}
+
+#app {
+  width: 100%;
+}
+
+.white-text {
+  color: white;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+.content .content-left {
+  width: 50%;
+}
+
+.content .content-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .content-right .content-right--main {
+  width: 50%;
 }
 
 .text-align-center {
@@ -9,6 +43,7 @@ main {
 }
 
 #myBoard {
+  margin-left: 48px;
   max-width: 100%;
   height: auto;
   /* overflow: scroll; */
